@@ -19,6 +19,7 @@ export default function App() {
 
   return (
     <>
+      <div className='static-background'></div>
       {!started && <HeroPlay onStart={startExperience} />}
       {started && <ScrollExperience />}
     </>

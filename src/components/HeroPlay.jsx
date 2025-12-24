@@ -19,6 +19,7 @@ export default function HeroPlay({ onStart }) {
             <p>Aunque no lo creas, esto ha sido una de las cosas más difíciles que he hecho, jaja.
                 No soy el mejor escribiendo, y mucho menos cuando sé que alguien va a leerlo, pero haré lo posible.
             </p>
+            <p>Ah y sube el volumen</p>
             <h1>Comencemos</h1>
             <button onClick={handleStart}>PLAY</button>
         </section>
